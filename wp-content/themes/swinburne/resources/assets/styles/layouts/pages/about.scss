@@ -1,0 +1,144 @@
+.about-page {
+    background-image: url("../images/page 3_4.2.png");
+    .banner-about {
+        img {
+            width: 100%;
+        }
+    }
+    .about-us {
+        .main-about {
+            background: #fff;
+            position: relative;
+            font-size: 16px;
+            @media (min-width: 992px) {
+                padding: 16px 35px 20px 35px;
+                top: -25px;
+            }
+            ol,
+            ul {
+                padding: 15px 0;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+            }
+            h1 {
+                font-size: 30px;
+                color: #343642;
+                margin: 0 0 22.5px 0;
+            }
+            h2 {
+                font-size: 20px;
+                color: #343642;
+                a {
+                    color: inherit;
+                }
+            }
+            h3 {
+                font-size: 18px;
+                color: #343642;
+            }
+            h4 {
+                font-size: 17px;
+                color: #343642;
+            }
+            h5 {
+                font-size: 16px;
+                color: #343642;
+            }
+            h6 {
+                font-size: 15px;
+                color: #343642;
+            }
+            p {
+                font-size: 16px;
+                color: #343642;
+                word-break: break-word;
+                margin: 15px 0;
+            }
+            .list-posts-about {
+                padding-top: 30px;
+                .single-post-about {
+                    margin-bottom: 30px;
+                    .img-posts-about {
+                        height: 230px;
+                        width: 100%;
+                        background-size: cover;
+                        background-repeat: no-repeat;
+                        background-position: center;
+                        margin-bottom: 10px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    .content-posts-about {
+                        h4 {
+                            padding-top: 10px;
+                            a {
+                                color: #343642;
+                            }
+                        }
+                        .descrip-abouts {
+                            p {
+                                font-size: 14px;
+                                color: #343642;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: $default_color;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    font-size: 17px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+.about-detail {
+    .main-content-detail {
+        p,
+        li,
+        span {
+            font-family: "Open Sans" !important;
+        }
+    }
+}
+
+@media (max-width: 480px) {
+    .main-about {
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    }
+}

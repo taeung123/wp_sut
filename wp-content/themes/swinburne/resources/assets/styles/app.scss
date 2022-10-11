@@ -1,0 +1,129 @@
+// import dependencies style
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css";
+// @import 'layouts/reset.css';
+// @import 'layouts/responsive.css';
+// import built-in style
+@import "common/variables";
+@import "common/_fonts";
+@import "common/global";
+@import "components/buttons";
+@import "components/forms";
+@import "layouts/pages/about";
+@import "layouts/pages/about-detail";
+@import "layouts/pages/research-detail";
+@import "layouts/pages/sidebar";
+@import "layouts/pages/business";
+@import "layouts/pages/study-us";
+@import "layouts/pages/study-course";
+@import "layouts/pages/study-major";
+@import "layouts/pages/navbar-study";
+@import "layouts/pages/news";
+@import "layouts/pages/events";
+@import "layouts/pages/calendar";
+@import "layouts/pages/event-detail";
+@import "layouts/pages/contact";
+@import "layouts/pages/download";
+@import "layouts/pages/student";
+@import "layouts/header";
+@import "layouts/meanmenu.css";
+@import "layouts/hover-min.css";
+@import "layouts/animate.css";
+@import "layouts/modal";
+@import "layouts/homepage";
+@import "layouts/sidebar";
+@import "layouts/footer";
+@import "layouts/pages";
+@import "layouts/posts";
+@import "layouts/unset-bg";
+@import "layouts/blocks";
+.main-content-detail {
+    ol {
+        padding: 3px 0px 3px 20px !important;
+    }
+    ul {
+        padding: 3px 0px 3px 30px !important;
+    }
+}
+
+.main-about {
+    ol {
+        padding: 3px 0px 3px 20px !important;
+    }
+    ul {
+        padding: 3px 0px 3px 30px !important;
+    }
+}
+
+.about-detail {
+    .col-lg-9 {
+        ol {
+            padding: 3px 0px 3px 20px !important;
+        }
+        ul {
+            padding: 3px 0px 3px 30px !important;
+        }
+    }
+}
+
+.about-us {
+    ol {
+        padding: 3px 0px 3px 20px !important;
+    }
+    ul {
+        padding: 3px 0px 3px 30px !important;
+    }
+}
+
+.font-size--h4 {
+    h2 {
+        a {
+            font-size: 14px !important;
+            color: #343642 !important;
+        }
+    }
+}
+
+.wrapper1,
+.wrapper2 {
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.wrapper1 {
+    height: 20px;
+}
+
+.wrapper2 {}
+
+.div1 {
+    height: 20px;
+}
+
+.div2 {
+    overflow: none;
+}
+
+i#banner_icon_left,
+i#banner_icon_right {
+    position: absolute;
+    top: calc(50%);
+    transform: translateY(-50%);
+    z-index: 9;
+    padding: 18px 5px;
+    color: #fff;
+    font-size: 35px;
+    background-color: #ec2031;
+    cursor: pointer;
+}
+
+i#banner_icon_left {
+    left: 5px;
+}
+
+i#banner_icon_right {
+    right: 5px;
+}

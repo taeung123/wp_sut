@@ -1,0 +1,18 @@
+{
+    "name": "nf/input",
+    "description": "Input Package for NF Theme",
+    "license": "MIT",
+    "authors": [{
+        "name": "Hieupv",
+        "email": "hieupv@codersvn.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Vicoders\\Input\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "nf/core": "^3.0"
+    }
+}

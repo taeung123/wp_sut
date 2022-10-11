@@ -1,0 +1,213 @@
+.banner-study img {
+  width: 100%;
+}
+
+.info-comunication .img-author {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0px;
+  margin: 0px;
+}
+
+.info-comunication .img-author .row {
+  padding: 0px;
+  margin: 0;
+}
+
+.info-comunication .img-author .info-author {
+  padding: 18px 35px 15px 35px;
+  width: 60%;
+  background: #f8f8f8;
+}
+
+.info-comunication .img-author .info-author p {
+  font-size: 14px;
+  color: #707070;
+}
+
+.info-comunication .img-author .info-author .signature {
+  text-align: right;
+  width: 65%;
+  float: right;
+}
+
+.info-comunication .img-author .info-author .signature .hr-cl {
+  height: 1px;
+  background: #EC2031;
+  width: 100%;
+  display: inline-block;
+}
+
+.info-comunication .img-author .info-author .signature h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #343642;
+}
+
+.info-comunication .img-author .info-author .signature span {
+  font-size: 14px;
+  color: #707070;
+}
+
+.info-comunication .img-author .man-tech {
+  padding: 0px;
+}
+
+.info-comunication .img-author .man-tech img {
+  width: 100%;
+  padding-top: 0px;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.gray-bg {
+  background: #edeae5;
+  padding-bottom: 66px;
+}
+
+.gray-bg .main-content-study {
+  background: #fff;
+  width: 80%;
+  padding-bottom: 90px;
+  margin: 0 auto;
+  position: relative;
+  top: -25px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.gray-bg .main-content-study .title-tech {
+  padding-top: 10px;
+  font-size: 18px;
+  padding-left: 35px;
+  padding-bottom: 12px;
+  color: #343642;
+}
+
+.gray-bg .main-content-study .intro {
+  padding: 0 35px 0 35px;
+}
+
+.gray-bg .main-content-study .intro h6 {
+  font-size: 18px;
+  color: #343642;
+  padding-top: 55px;
+}
+
+.gray-bg .main-content-study .intro p {
+  font-size: 14px;
+  color: #343642;
+}
+
+.list-post-us {
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.list-post-us .list-posts-about .title-post-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.list-post-us .list-posts-about .title-post-us h4 {
+  font-size: 18px;
+  color: #343642;
+  padding-bottom: 12px;
+}
+
+.list-post-us .list-posts-about .title-post-us .discover-link {
+  font-size: 14px;
+  color: #ec2031;
+  border-bottom: 1px solid #ec2031;
+  height: 28px;
+}
+
+.list-post-us .list-posts-about .title-post-us .discover-link i {
+  padding-left: 15px;
+}
+
+.list-post-us .list-posts-about .single-post-about .img-posts-about img {
+  width: 100%;
+}
+
+.list-post-us .list-posts-about .single-post-about .content-posts-about h4 {
+  font-size: 14px;
+  color: #343642;
+  padding-top: 10px;
+}
+
+.list-post-us .list-posts-about .single-post-about .content-posts-about .descrip-abouts p {
+  font-size: 14px;
+  color: #343642;
+}
+
+.group-icon {
+  padding-top: 40px;
+  padding-left: 35px;
+}
+
+.group-icon .sg-icon-us {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.group-icon .sg-icon-us .sg-img img {
+  width: 100%;
+  padding-right: 10px;
+}
+
+.group-icon .sg-icon-us .sg-txt p {
+  font-size: 14px;
+  font-weight: 600;
+  color: #343642;
+}
+
+.group-icon .sg-icon-us .sg-txt p span {
+  display: block;
+}
+
+.group-icon .sg-top {
+  padding-bottom: 40px;
+}
+
+@media (max-width: 1199px) {
+  .gray-bg .main-content-study .info-comunication .img-author {
+    display: block;
+  }
+  .gray-bg .main-content-study .info-comunication .img-author .man-tech {
+    width: 100%;
+  }
+  .gray-bg .main-content-study .info-comunication .img-author .info-author {
+    width: 100%;
+  }
+  .gray-bg .main-content-study .info-comunication .img-author .info-author .signature {
+    text-align: left;
+    width: 35%;
+    float: none;
+  }
+}
+
+@media (max-width: 991px) {
+  .about-detail .main-content-detail img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .group-icon .sg-icon-us {
+    padding-bottom: 35px;
+  }
+  .list-post-us {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+/*# sourceMappingURL=study-us.css.map */

@@ -1,0 +1,39 @@
+.list-post-news {
+    .list-posts-about {
+        .single-download {
+            display: flex;
+            align-items: center;
+            margin-bottom: 30px;
+
+            &:hover {
+                background: rgba(0, 255, 0, 0.2);
+
+            }
+
+            .img-download {
+
+                i {
+                    padding: 5px;
+                    background: #343642;
+                    color: #fff;
+                    font-size: 21px;
+                }
+            }
+
+            .name-file {
+                padding-left: 20px;
+
+                a {
+                    
+                    color: #343642;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1190px;
+    }
+}

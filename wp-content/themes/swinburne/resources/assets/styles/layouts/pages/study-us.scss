@@ -1,0 +1,242 @@
+.banner-study {
+    img {
+        width: 100%;
+    }
+
+}
+
+.info-comunication {
+    .img-author {
+        display: flex;
+        padding: 0px;
+        margin : 0px;
+
+        .row {
+            padding: 0px;
+            margin : 0;
+        }
+
+        .info-author {
+
+            padding   : 18px 35px 15px 35px;
+            width     : 60%;
+            background: #f8f8f8;
+
+            p {
+                font-size    : 14px;
+                // font-style: italic;
+                color        : #707070;
+            }
+
+            .signature {
+                text-align: right;
+                width     : 65%;
+                float     : right;
+
+                .hr-cl {
+                    height    : 1px;
+                    background: #EC2031;
+                    width     : 100%;
+                    display   : inline-block;
+                }
+
+                h4 {
+                    font-size  : 14px;
+                    font-weight: 600;
+                    color      : #343642;
+                }
+
+                span {
+                    font-size    : 14px;
+                    // font-style: italic;
+                    color        : #707070;
+                }
+
+
+            }
+        }
+
+        .man-tech {
+            padding: 0px;
+
+            img {
+                width              : 100%;
+                padding-top        : 0px;
+                height             : 100%;
+                background-position: center;
+                background-size    : cover;
+            }
+        }
+    }
+}
+
+.gray-bg {
+    background    : #edeae5;
+    padding-bottom: 66px;
+
+    .main-content-study {
+        background    : #fff;
+        width         : 80%;
+        padding-bottom: 90px;
+        margin        : 0 auto;
+        position      : relative;
+        top           : -25px;
+        box-shadow    : 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+
+        .title-tech {
+            padding-top: 10px;
+            font-size  : 18px;
+
+            padding-left  : 35px;
+            padding-bottom: 12px;
+            color         : #343642;
+        }
+
+        .intro {
+            padding: 0 35px 0 35px;
+
+
+
+            h6 {
+                font-size: 18px;
+
+                color      : #343642;
+                padding-top: 55px;
+            }
+
+            p {
+                font-size: 14px;
+                color    : #343642;
+            }
+        }
+
+
+
+
+    }
+}
+
+.list-post-us {
+    padding-left : 35px;
+    padding-right: 35px;
+
+    .list-posts-about {
+        .title-post-us {
+            display        : flex;
+            justify-content: space-between;
+
+            h4 {
+                font-size: 18px;
+
+                color         : #343642;
+                padding-bottom: 12px;
+            }
+
+            .discover-link {
+                font-size    : 14px;
+                color        : #ec2031;
+                border-bottom: 1px solid #ec2031;
+                height       : 28px;
+
+                i {
+                    padding-left: 15px;
+                }
+            }
+        }
+
+        .single-post-about {
+            .img-posts-about {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .content-posts-about {
+                h4 {
+                    font-size: 14px;
+
+                    color      : #343642;
+                    padding-top: 10px;
+                }
+
+                .descrip-abouts {
+                    p {
+                        font-size: 14px;
+                        color    : #343642;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.group-icon {
+    // padding: 40px 44px 40px 35px;
+    padding-top : 40px;
+    padding-left: 35px;
+
+    .sg-icon-us {
+        display: flex;
+
+        .sg-img {
+            img {
+                width        : 100%;
+                padding-right: 10px;
+            }
+        }
+
+        .sg-txt {
+            p {
+                font-size  : 14px;
+                font-weight: 600;
+                color      : #343642;
+
+                span {
+                    display: block;
+                }
+            }
+        }
+    }
+
+    .sg-top {
+        padding-bottom: 40px;
+    }
+}
+
+@media(max-width: 1199px) {
+    .gray-bg .main-content-study .info-comunication .img-author {
+        display: block;
+    }
+
+    .gray-bg .main-content-study .info-comunication .img-author .man-tech {
+        width: 100%;
+    }
+
+    .gray-bg .main-content-study .info-comunication .img-author .info-author {
+        width: 100%;
+    }
+
+    .gray-bg .main-content-study .info-comunication .img-author .info-author .signature {
+        text-align: left;
+        width     : 35%;
+        float     : none;
+    }
+}
+
+@media(max-width: 991px) {
+    .about-detail .main-content-detail img {
+        width : 100%;
+        height: auto;
+    }
+}
+
+@media(max-width: 767px) {
+    .group-icon .sg-icon-us {
+        padding-bottom: 35px;
+    }
+
+    .list-post-us {
+        padding-left : 5px;
+        padding-right: 5px;
+    }
+}

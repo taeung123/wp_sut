@@ -1,0 +1,23 @@
+# wordpress
+wp-config.php
+*.log
+
+# bower
+/bower_components
+
+# composer
+/vendor
+
+# Mac OSX
+.DS_Store
+
+# npm
+npm-debug.log
+/node_modules
+
+# Other
+.phpintel
+
+composer.lock
+yarn.lock
+package-lock.json

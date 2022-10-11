@@ -1,0 +1,294 @@
+.banner-event img {
+  width: 100%;
+}
+
+.set_attribute {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.event-page {
+  padding-top: 15px;
+}
+
+.event-page .view-past p,
+.event-page .month-calendar p {
+  font-size: 13px;
+  color: #ffffff;
+  height: 30px;
+  border: solid 1px rgba(0, 0, 0, 0);
+  background-color: #343642;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  line-height: 30px;
+}
+
+.event-page .view-past p {
+  background: #ec2031;
+}
+
+.event-page .view-last {
+  padding: 30px 0;
+}
+
+.event-page .main-event-page .filter-by-category {
+  background: #fff;
+  margin-top: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.event-page .main-event-page .filter-by-category h4 {
+  font-size: 14px;
+  font-weight: 600;
+  color: #343642;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  font-family: Montserrat-Black;
+}
+
+.event-page .main-event-page .filter-by-category .list-filter li {
+  border-bottom: 1px solid #EDEAE5;
+  padding-bottom: 5px;
+}
+
+.event-page .main-event-page .filter-by-category .list-filter li a {
+  font-size: 14px;
+  color: #343642;
+}
+
+.event-page .main-event-page .filter-by-category .list-filter li a:hover {
+  color: #ff543c;
+  font-weight: bold;
+}
+
+.event-page .main-event-page .filter-by-category .list-filter li .active {
+  font-weight: bold;
+}
+
+.event-page .event-study {
+  background: #fff;
+  padding: 0 35px;
+  padding-bottom: 100px;
+  margin-bottom: 60px;
+}
+
+.event-page .event-study .event-title .event-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.event-page .event-study .event-title .event-link h1 {
+  font-size: 30px;
+  color: #343642;
+}
+
+.event-page .event-study .event-title .event-link h2 {
+  font-size: 20px;
+  color: #343642;
+}
+
+.event-page .event-study .event-title .event-link h3 {
+  font-size: 18px;
+  color: #343642;
+}
+
+.event-page .event-study .event-title .event-link h4 {
+  font-size: 17px;
+  color: #343642;
+}
+
+.event-page .event-study .event-title .event-link h5 {
+  font-size: 16px;
+  color: #343642;
+}
+
+.event-page .event-study .event-title .event-link h6 {
+  font-size: 15px;
+  color: #343642;
+}
+
+.event-page .event-study .event-title .event-link .go-to a {
+  font-size: 14px;
+  color: #ec2031;
+  border-bottom: 1px solid #ec2031;
+  padding-bottom: 5px;
+}
+
+.event-page .event-study .event-title .event-link .go-to a i {
+  padding-left: 10px;
+}
+
+.event-page .event-study .event-title h3 {
+  font-size: 14px;
+  color: #343642;
+  font-family: Montserrat-Black;
+}
+
+.event-page .event-study .event-title .big-picture {
+  position: relative;
+  background: #F8F8F8;
+  padding: 0 5px;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.event-page .event-study .event-title .big-picture .month-day {
+  position: absolute;
+  width: 50px;
+  background-color: #ec2031;
+  text-align: center;
+  top: 5px;
+  left: 10px;
+  padding: 0 5px;
+  padding-bottom: 5px;
+}
+
+.event-page .event-study .event-title .big-picture .month-day p {
+  font-size: 14px;
+  font-weight: 600;
+  margin: 0;
+  color: #ffffff;
+}
+
+.event-page .event-study .event-title .big-picture .month-day .have-border {
+  border-bottom: 1px solid #fff;
+}
+
+.event-page .event-study .event-title .img-event {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+
+.event-page .event-study .event-title .big-img-col4 {
+  padding-bottom: 5px;
+}
+
+.event-page .event-study .event-title .have-height {
+  width: 100%;
+  min-height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.event-page .event-study .event-title .have-height img {
+  width: 100%;
+  padding: 0;
+}
+
+.event-page .event-study .event-title .go-to-link {
+  text-align: right;
+}
+
+.event-page .event-study .event-title .go-to-link a {
+  font-size: 14px;
+  color: #343642;
+  border-bottom: 1px solid #707070;
+  padding-bottom: 5px;
+}
+
+.event-page .event-study .event-title .go-to-link a:hover {
+  color: #ff543c;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.event-page .event-study .event-title .go-to-link a i {
+  padding-left: 10px;
+}
+
+.event-page .event-study .event-title .tex-event-course h2 {
+  font-size: 16px;
+}
+
+.event-page .event-study .event-title .tex-event-course p {
+  font-size: 14px;
+  color: #707070;
+}
+
+.event-page .event-study .event-title .small-txt-course h6 a {
+  font-size: 14px;
+  font-weight: 600;
+  color: #343642;
+}
+
+.event-page .go-to .search-input {
+  position: relative;
+}
+
+.event-page .go-to .search-input input {
+  width: 294px;
+  height: 35px;
+  border: solid 1px #707070;
+  background-color: #ffffff;
+  font-size: 14px;
+  color: #8f8f8f;
+  padding-left: 20px;
+}
+
+.event-page .go-to .search-input i {
+  color: #cb0c0c;
+  position: absolute;
+  right: 22px;
+  top: 4px;
+  padding: 5px 5px 5px 9px;
+  border-left: solid 1px #707070;
+  cursor: pointer;
+}
+
+@media (max-width: 991px) {
+  .event-page .event-study .event-title .event-link {
+    display: block;
+  }
+  .event-page .event-study .event-title .big-picture {
+    width: 100%;
+  }
+  .event-page .go-to .search-input i {
+    color: #cb0c0c;
+    position: absolute;
+    top: -3px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  .event-page .go-to .search-input {
+    width: 310px;
+  }
+}
+
+@media (max-width: 575px) {
+  .event-detail-page .about-us .main-event-detail {
+    width: 100% !important;
+  }
+  .event-page .event-study {
+    padding: 0;
+  }
+  .event-link {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .event-page .go-to .search-input input {
+    width: 220px;
+  }
+  .event-page .go-to .search-input i {
+    position: absolute;
+    right: 85px;
+    top: -3px;
+  }
+  .event-page .go-to .search-input {
+    width: 265px;
+  }
+}
+/*# sourceMappingURL=events.css.map */

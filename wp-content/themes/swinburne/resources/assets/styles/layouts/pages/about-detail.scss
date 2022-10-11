@@ -1,0 +1,132 @@
+.about-detail {
+    background-image: url("../images/page 3_4.2.png");
+    padding-top: 27px;
+    padding-bottom: 60px;
+    h1,
+    h2,
+    h3,
+    h4 {
+        font-family: SimplonNorm-Medium;
+        a {
+            font-family: SimplonNorm-Medium;
+        }
+    }
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6,
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin-bottom: 1rem;
+    }
+    .main-content-detail {
+        background: #fff;
+        padding: 35px 35px 45px 35px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+        .h1,
+        .h2,
+        .h3,
+        .h4,
+        .h5,
+        .h6,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            margin-bottom: 1rem;
+        }
+        h1 {
+            font-size: 30px;
+            color: #343642;
+        }
+        h2 {
+            font-size: 20px;
+            color: #343642;
+        }
+        h3 {
+            font-size: 22px;
+            color: #343642;
+        }
+        h4 {
+            font-size: 17px;
+            color: #343642;
+        }
+        h5 {
+            font-size: 16px;
+            color: #343642;
+        }
+        h6 {
+            font-size: 15px;
+            color: #343642;
+        }
+        img {
+            width: 100%;
+            padding-top: 10px;
+            margin-bottom: 10px;
+        }
+        .detail-cont-descript {
+            p {
+                font-size: 14px;
+                color: #343642;
+            }
+        }
+    }
+    .sidebar-about {
+        padding-top: 15px;
+    }
+}
+
+.university-area {
+    background: #fff;
+    margin-top: 30px;
+    .univer-title {
+        h3 {
+            padding-bottom: 20px;
+        }
+    }
+    .list-posts-about {
+        .single-post-about {
+            .img-posts-about {
+                img {
+                    width: 100%;
+                }
+            }
+            .content-posts-about {
+                h4 {
+                    color: #343642;
+                    padding-top: 10px;
+                }
+                .descrip-abouts {
+                    p {
+                        font-size: 14px;
+                        color: #343642;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 991px) {
+    .info-research {
+        margin-top: 20px;
+    }
+    .descrip-detail-about {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width: 575px) {
+    .descrip-detail-about {
+        padding-top: 0;
+        text-align: center;
+    }
+}

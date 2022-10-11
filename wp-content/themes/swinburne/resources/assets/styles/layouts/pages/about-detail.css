@@ -1,0 +1,141 @@
+.about-detail {
+  background-image: url("../images/page 3_4.2.png");
+  padding-top: 27px;
+  padding-bottom: 60px;
+}
+
+.about-detail h1,
+.about-detail h2,
+.about-detail h3,
+.about-detail h4 {
+  font-family: Montserrat-Black;
+}
+
+.about-detail h1 a,
+.about-detail h2 a,
+.about-detail h3 a,
+.about-detail h4 a {
+  font-family: Montserrat-Black;
+}
+
+.about-detail .h1,
+.about-detail .h2,
+.about-detail .h3,
+.about-detail .h4,
+.about-detail .h5,
+.about-detail .h6,
+.about-detail h1,
+.about-detail h2,
+.about-detail h3,
+.about-detail h4,
+.about-detail h5,
+.about-detail h6 {
+  margin-bottom: 1rem;
+}
+
+.about-detail .main-content-detail {
+  background: #fff;
+  padding: 35px 35px 45px 35px;
+  -webkit-box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+          box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.about-detail .main-content-detail .h1,
+.about-detail .main-content-detail .h2,
+.about-detail .main-content-detail .h3,
+.about-detail .main-content-detail .h4,
+.about-detail .main-content-detail .h5,
+.about-detail .main-content-detail .h6,
+.about-detail .main-content-detail h1,
+.about-detail .main-content-detail h2,
+.about-detail .main-content-detail h3,
+.about-detail .main-content-detail h4,
+.about-detail .main-content-detail h5,
+.about-detail .main-content-detail h6 {
+  margin-bottom: 1rem;
+}
+
+.about-detail .main-content-detail h1 {
+  font-size: 30px;
+  color: #343642;
+}
+
+.about-detail .main-content-detail h2 {
+  font-size: 20px;
+  color: #343642;
+}
+
+.about-detail .main-content-detail h3 {
+  font-size: 18px;
+  color: #343642;
+}
+
+.about-detail .main-content-detail h4 {
+  font-size: 17px;
+  color: #343642;
+}
+
+.about-detail .main-content-detail h5 {
+  font-size: 16px;
+  color: #343642;
+}
+
+.about-detail .main-content-detail h6 {
+  font-size: 15px;
+  color: #343642;
+}
+
+.about-detail .main-content-detail img {
+  width: 100%;
+  padding-top: 10px;
+  margin-bottom: 10px;
+}
+
+.about-detail .main-content-detail .detail-cont-descript p {
+  font-size: 14px;
+  color: #343642;
+}
+
+.about-detail .sidebar-about {
+  padding-top: 15px;
+}
+
+.university-area {
+  background: #fff;
+  margin-top: 30px;
+}
+
+.university-area .univer-title h3 {
+  padding-bottom: 20px;
+}
+
+.university-area .list-posts-about .single-post-about .img-posts-about img {
+  width: 100%;
+}
+
+.university-area .list-posts-about .single-post-about .content-posts-about h4 {
+  color: #343642;
+  padding-top: 10px;
+}
+
+.university-area .list-posts-about .single-post-about .content-posts-about .descrip-abouts p {
+  font-size: 14px;
+  color: #343642;
+}
+
+@media (max-width: 991px) {
+  .info-research {
+    margin-top: 20px;
+  }
+  .descrip-detail-about {
+    padding-top: 30px;
+  }
+}
+
+@media (max-width: 575px) {
+  .descrip-detail-about {
+    padding-top: 0;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=about-detail.css.map */

@@ -1,0 +1,19 @@
+@media(max-width: 991px) {
+    .about-detail.news-page{
+    	background: unset !important;
+    }
+    .about-page{
+    	background: unset !important;
+    }
+    .about-detail .course-study .contact-page{
+    	background: unset !important;
+    }
+    .main{
+    	.about-detail {
+			background: unset !important;
+    	}
+    }
+    .about-detail.news-page.news-other-bg {
+        background: unset !important;
+    }
+}

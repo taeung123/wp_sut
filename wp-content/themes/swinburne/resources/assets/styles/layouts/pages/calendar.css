@@ -1,0 +1,185 @@
+.calendar-filter .calendar-event {
+  /*Styles for dropdown*/
+  /*Years scroll bar*/
+  /*Styles for main part of calander*/
+  /*Dates*/
+}
+
+.calendar-filter .calendar-event .calendar-header {
+  height: 30px;
+  border: solid 1px rgba(0, 0, 0, 0);
+  background-color: #343642;
+  padding: 0 5px;
+}
+
+.calendar-filter .calendar-event .calendar-header p {
+  font-size: 13px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.calendar-filter .calendar-event .calendar-header p.monthname {
+  line-height: 28px;
+}
+
+.calendar-filter .calendar-event .calendar-footer {
+  background: #ec2031;
+}
+
+.calendar-filter .calendar-event .right {
+  text-align: right;
+}
+
+.calendar-filter .calendar-event .center {
+  text-align: center;
+}
+
+.calendar-filter .calendar-event .pointer {
+  cursor: pointer;
+}
+
+.calendar-filter .calendar-event .group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.calendar-filter .calendar-event .calendar {
+  position: relative;
+  overflow: hidden;
+}
+
+.calendar-filter .calendar-event .calendar-ympicker {
+  position: absolute;
+  max-width: 19.5em;
+  /*stop more years causing overflow*/
+  min-height: 15em;
+  padding: .5em .5em 1em;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  /*Start offscreen*/
+  -webkit-transition: -webkit-transform ease-in-out 0.2s;
+  transition: -webkit-transform ease-in-out 0.2s;
+  transition: transform ease-in-out 0.2s;
+  transition: transform ease-in-out 0.2s, -webkit-transform ease-in-out 0.2s;
+  background: #333333;
+  z-index: 2;
+}
+
+.calendar-filter .calendar-event .calendar-ympicker-header div {
+  display: inline-block;
+  color: #428bca;
+  cursor: pointer;
+}
+
+.calendar-filter .calendar-event .calendar-ympicker .close {
+  text-align: right;
+  border: 1px transparent solid;
+}
+
+.calendar-filter .calendar-event .calendar-ympicker li {
+  display: inline-block;
+  line-height: 2em;
+  border: 1px transparent solid;
+  text-align: center;
+  cursor: pointer;
+}
+
+.calendar-filter .calendar-event .calendar-ympicker-months {
+  border-bottom: 1px solid #444;
+}
+
+.calendar-filter .calendar-event .calendar-ympicker-months li {
+  width: 30%;
+}
+
+.calendar-filter .calendar-event .calendar-ympicker-years {
+  overflow-x: scroll;
+  white-space: nowrap;
+  padding: 0.5em 0;
+}
+
+.calendar-filter .calendar-event .calendar-ympicker-years li {
+  width: 25%;
+}
+
+.calendar-filter .calendar-event .calendar-ympicker-years::-webkit-scrollbar {
+  height: 8px;
+}
+
+.calendar-filter .calendar-event .calendar-ympicker-years::-webkit-scrollbar-track {
+  background-color: #555;
+  border-radius: 10px;
+}
+
+.calendar-filter .calendar-event .calendar-ympicker-years::-webkit-scrollbar-thumb {
+  background-color: #aaa;
+  border-radius: 10px;
+}
+
+.calendar-filter .calendar-event .calendar-header .arrow {
+  position: absolute;
+  width: 10%;
+  top: 3px;
+}
+
+.calendar-filter .calendar-event .calendar-header .addmonth {
+  right: 0.5em;
+  text-align: right;
+}
+
+.calendar-filter .calendar-event .calendar-header .arrow span {
+  display: inline-block;
+  -webkit-transition: -webkit-transform ease-in-out 0.2s;
+  transition: -webkit-transform ease-in-out 0.2s;
+  transition: transform ease-in-out 0.2s;
+  transition: transform ease-in-out 0.2s, -webkit-transform ease-in-out 0.2s;
+}
+
+.calendar-filter .calendar-event .calendar-days {
+  background: #ebebeb;
+}
+
+.calendar-filter .calendar-event .calendar-days li {
+  font-size: 11px;
+  color: #343642;
+  height: 30px;
+}
+
+.calendar-filter .calendar-event .calendar-body {
+  background: #fff;
+}
+
+.calendar-filter .calendar-event .calendar-body li {
+  font-size: 12px;
+  color: #343642;
+}
+
+.calendar-filter .calendar-event .calendar-body li,
+.calendar-filter .calendar-event .calendar-days li {
+  float: left;
+  width: -webkit-calc(100%/7);
+  padding: .25em 0;
+  border: 1px transparent solid;
+  text-align: center;
+  cursor: pointer;
+}
+
+.calendar-filter .calendar-event .calendar-body li:hover {
+  border: 1px solid #428bca;
+  color: #428bca;
+}
+
+.calendar-filter .calendar-event .calendar li.active_date {
+  background-color: #428bca;
+  color: #ddd;
+}
+
+.calendar-filter .calendar-event .calendar-body .today {
+  border: 1px solid #444;
+}
+
+.calendar-filter .calendar-event .calendar-body li.noclick {
+  cursor: default;
+}
+/*# sourceMappingURL=calendar.css.map */

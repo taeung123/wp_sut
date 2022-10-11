@@ -1,0 +1,112 @@
+.student-page {
+    .nf-row {
+        margin: 0 -8px;
+    }
+    .nf-col {
+        padding: 0 8px;
+    }
+    a {
+        &:hover {
+            text-decoration: none;
+        }
+    }
+    h1 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 24px;
+        font-weight: bold;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #343642;
+        margin-bottom: 20px;
+    }
+    hr {
+        height: 1px;
+        background-color: #edeae5;
+        margin: 19px 0 39px;
+    }
+    .wapper-breadcrumb {
+        background: #fbfbfb;
+        .nf-breadcrumb {
+            font-size: 14px;
+            font-weight: normal;
+            font-stretch: normal;
+            font-style: normal;
+            line-height: normal;
+            letter-spacing: normal;
+            text-align: left;
+            padding: 10px 0;
+            margin-bottom: 20px;
+            span {
+                a {
+                    color: #ed1b2e;
+                }
+            }
+            .current-item {
+                color: #707070 !important;
+            }
+        }
+    }
+    .description-page {
+        font-family: OpenSans;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #232323;
+    }
+    .img-posts-about {
+        height: 220px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 16px;
+        .content-posts-about {
+            width: 252px;
+            height: 160px;
+            padding: 30px 20px 32px;
+            opacity: 0.95;
+            background-color: #f1f2f2;
+            text-align: center;
+            h2 {
+                width: 212px;
+                margin: 0 0 12px;
+                font-family: OpenSans;
+                font-size: 18px;
+                font-weight: bold;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #ac0202;
+                font-family: "Open Sans", sans-serif;
+            }
+            .descrip-abouts {
+                font-size: 14px;
+                font-weight: normal;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: normal;
+                letter-spacing: normal;
+                text-align: center;
+                color: #232323;
+                p {
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+#footer {
+    box-shadow: 0 -3px 6px 0 rgba(0, 0, 0, 0.16);
+    margin-top: 45px;
+}

@@ -1,0 +1,19 @@
+.single-admission {
+    .content {
+        .container {
+            @media (min-width: 1200px) {
+                max-width: 930px;
+            }
+
+            @media (min-width: 1500px) {
+                max-width: 1070px;
+            }
+
+            @media (min-width: 1500px) {
+                max-width: 1190px;
+            }
+        }
+    }
+
+    
+}

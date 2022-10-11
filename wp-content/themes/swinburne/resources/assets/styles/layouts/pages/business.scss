@@ -1,0 +1,31 @@
+.business-page {
+    .business {
+        padding-bottom: 50px;
+    }
+    .main-business {
+        padding: 10px 35px 170px 35px;
+        position: inherit !important;
+        margin-top: 15px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    }
+}
+
+.student-page {
+    .single-post-about {
+        min-height: 175px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        transition: 0.2s;
+        &:hover {
+            box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.3);
+            transition: 0.2s;
+        }
+    }
+}
+
+@media (max-width: 767px) {
+    .sidebar .infomation-contact li a {
+        text-align: left;
+    }
+}

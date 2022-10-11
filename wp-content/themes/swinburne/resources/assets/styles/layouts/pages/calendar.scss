@@ -1,0 +1,185 @@
+  .calendar-filter {
+      .calendar-event {
+          .calendar-header {
+              height: 30px;
+              border: solid 1px rgba(0, 0, 0, 0);
+              background-color: #343642;
+              padding: 0 5px;
+              p {
+                  font-size: 13px;
+                  color: #ffffff;
+                  text-align: center;
+                  &.monthname {
+                    line-height: 28px;
+                  }
+              }
+          }
+          .calendar-footer {
+            background: #ec2031;
+          }
+
+          .right {
+              text-align: right;
+          }
+
+          .center {
+              text-align: center;
+          }
+
+          .pointer {
+              cursor: pointer;
+          }
+
+          .group:after {
+              content: "";
+              display: table;
+              clear: both;
+          }
+
+          .calendar {
+              position: relative;
+              overflow: hidden;
+
+          }
+
+          /*Styles for dropdown*/
+          .calendar-ympicker {
+              position: absolute;
+              max-width: 19.5em;
+              /*stop more years causing overflow*/
+              min-height: 15em;
+              padding: .5em .5em 1em;
+              transform: translateY(-100%);
+              /*Start offscreen*/
+              transition: transform ease-in-out 0.2s;
+              background: rgb(51, 51, 51);
+              z-index: 2;
+          }
+
+          .calendar-ympicker-header div {
+              display: inline-block;
+              color: #428bca;
+              cursor: pointer;
+          }
+
+          .calendar-ympicker .close {
+              text-align: right;
+              border: 1px transparent solid;
+          }
+
+          .calendar-ympicker li {
+              display: inline-block;
+              line-height: 2em;
+              border: 1px transparent solid;
+              text-align: center;
+              cursor: pointer;
+          }
+
+          
+
+          .calendar-ympicker-months {
+              border-bottom: 1px solid #444;
+          }
+
+          .calendar-ympicker-months li {
+              width: 30%;
+          }
+
+          .calendar-ympicker-years {
+              overflow-x: scroll;
+              white-space: nowrap;
+              padding: 0.5em 0;
+          }
+
+          .calendar-ympicker-years li {
+              width: 25%;
+          }
+
+          /*Years scroll bar*/
+         
+
+          .calendar-ympicker-years::-webkit-scrollbar {
+              height: 8px;
+          }
+
+          .calendar-ympicker-years::-webkit-scrollbar-track {
+              background-color: #555;
+              -webkit-border-radius: 10px;
+              border-radius: 10px;
+          }
+
+          .calendar-ympicker-years::-webkit-scrollbar-thumb {
+              background-color: #aaa;
+              -webkit-border-radius: 10px;
+              border-radius: 10px;
+          }
+
+          /*Styles for main part of calander*/
+
+
+          .calendar-header .arrow {
+              position: absolute;
+              width: 10%;
+              top: 3px;
+          }
+
+          .calendar-header .addmonth {
+              right: 0.5em;
+              text-align: right;
+          }
+
+          .calendar-header .arrow span {
+              display: inline-block;
+              transition: transform ease-in-out 0.2s;
+          }
+          .calendar-days {
+              background: #ebebeb;
+
+              li {
+                  font-size: 11px;
+                  color:#343642;
+                  height: 30px;
+                  
+              }
+          }
+
+          /*Dates*/
+          .calendar-body {
+              background: #fff;
+
+              li {
+                  font-size: 12px;
+                  color:#343642;
+              }
+          }
+
+          .calendar-body li,
+          .calendar-days li {
+              float: left;
+              width: -webkit-calc(100%/7);
+              padding: .25em 0;
+              border: 1px transparent solid;
+              text-align: center;
+              cursor: pointer;
+          }
+
+          .calendar-body li:hover {
+              border: 1px solid #428bca;
+              color: #428bca;
+          }
+
+          .calendar li.active_date {
+              background-color: #428bca;
+              color: #ddd;
+          }
+
+          .calendar-body .today {
+              border: 1px solid #444;
+          }
+
+          .calendar-body li.noclick {
+              cursor: default;
+          }
+      }
+  }
+  .quangtt{};

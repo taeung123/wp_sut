@@ -1,0 +1,1236 @@
+.contact-page .personal-info .form-2 .contact-submit {
+    opacity: 1 !important;
+}
+
+.custom-class input {
+    display: none;
+}
+
+#searchsubmit {
+    background: transparent;
+    border    : transparent;
+    height    : 0;
+}
+
+.thanks-page {
+
+    background: #fff;
+    width     : 75%;
+    margin    : 0 auto;
+    position  : relative;
+    top       : -50px;
+    text-align: center;
+    padding   : 45px 20px;
+
+    .main-text {
+        width : 70%;
+        margin: 0 auto;
+
+        h1 {
+            padding-top   : 20px;
+            padding-bottom: 10px;
+            font-size     : 18px;
+            color         : #343642;
+        }
+
+        p {
+            font-size: 14px;
+            color    : #343642;
+        }
+
+        .thanks-txt {
+            span {
+                font-size  : 14px;
+                font-weight: 600;
+                color      : #343642;
+            }
+
+            .link-thanks {
+                display         : block;
+                width           : 220px;
+                height          : 37px;
+                background-color: #ec2031;
+                line-height     : 37px;
+                margin          : 0 auto;
+                margin-top      : 40px;
+                font-size       : 14px;
+                text-align      : center;
+                color           : #ffffff;
+                text-transform  : uppercase;
+            }
+        }
+    }
+}
+
+.personal-info {
+    ul {
+        list-style: unset;
+    }
+
+    select {
+        border: solid 1px #343642;
+    }
+}
+
+.contact-page {
+    .personal-info {
+        background: #fff;
+        padding   : 15px 110px 167px 35px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+
+        .group-number-telephone_number>.group-wrap {
+            float: left;
+            width: 100%;
+        }
+
+        h1 {
+            font-size: 30px;
+            color: #343642;
+        }
+
+        .group-email-Email>.group-wrap {
+            float: left;
+            width: 100%;
+        }
+
+        .group-number-Month,
+        .group-number-Year>.group-wrap {
+            float      : left;
+            padding-top: 28px;
+        }
+
+        .group-number-Month {
+            padding-right: 30px;
+        }
+
+        h4 {
+            font-size : 18px;
+            color     : #343642;
+            text-align: center;
+        }
+
+        p {
+            font-size: 14px;
+            color    : #343642;
+        }
+
+        .form-2 {
+            input {
+                width        : 100%;
+                opacity      : 0.7;
+                border       : solid 1px #343642;
+                height       : 40px;
+                margin-bottom: 15px;
+                padding-left : 5px;
+            }
+
+            textarea {
+                width       : 100%;
+                border      : solid 1px #343642;
+                height      : 220px;
+                padding-left: 5px;
+            }
+
+            label {
+                display    : block;
+                font-size  : 14px;
+                font-weight: 600;
+                color      : #343642;
+                clear      : both;
+
+                span {
+                    color: #ff0000;
+                }
+            }
+
+            .contact-submit {
+                margin          : 0 auto;
+                font-size       : 14px;
+                color           : #ffffff;
+                width           : 130px;
+                height          : 37px;
+                border          : solid 1px #707070;
+                text-align      : center;
+                background-color: #ec2031;
+                display         : inherit;
+                text-transform  : uppercase;
+                margin-top      : 50px;
+            }
+
+        }
+    }
+}
+
+.contact-page {
+
+    .none_location,
+    .none_duration,
+    .none_type,
+    .none_time_launch,
+    .none_take_time,
+    .none_start_time,
+    .none_subjects,
+    .none_class_code,
+    .none_credit {
+        display: none;
+    }
+}
+
+.contact-page {
+    .apply-contact {
+        padding: 0;
+
+        .first-nopa {
+            margin-bottom: 10px;
+
+            a {
+                margin: 0 !important;
+            }
+        }
+    }
+
+    .map-iframe {
+        margin-top: 10px;
+        border    : 1px solid #aaaaaa;
+
+        iframe {
+            width : 100%;
+            height: 280px;
+        }
+
+        .map-go-to {
+            background: #fff;
+            padding   : 10px 20px;
+            margin-top: -6px;
+
+            a {
+                font-size: 14px;
+                color    : #ec2031;
+
+                i {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+#input_avatar::-webkit-file-upload-button {
+    width             : 100%;
+    border-radius     : 0px;
+    cursor            : pointer;
+    background        : transparent;
+    box-shadow        : none;
+    -webkit-appearance: none;
+    -moz-appearance   : none;
+    border            : none;
+    font-size         : 0;
+    height            : 200px;
+    transition        : all 0.5s ease 0s;
+
+    &:hover {
+        border-color: #007bff;
+    }
+}
+
+.register-form {
+    background    : url('/wp-content/themes/swinburne/resources/assets/images/contact/bg_2.png');
+    padding-top   : 16px;
+    padding-bottom: 145px;
+
+    input[type="number"] {
+        -moz-appearance: textfield;
+
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin            : 0;
+        }
+    }
+
+    .register-form-row {
+        margin-right: -8px;
+        margin-left : -8px;
+
+        .register-form-col {
+            padding-left : 8px;
+            padding-right: 8px;
+        }
+    }
+
+    form {
+        position  : relative;
+        background: #fff;
+        padding   : 20px 12px;
+        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+
+        .form-group {
+            font-size: 14px;
+
+            label:empty {
+                display: none;
+            }
+
+            &.text-font_cmt_link,
+            &.text-back_cmt_link,
+            &.text-birth_certificate_link,
+            &.text-learning_results_link,
+            &.text-school_diploma_link,
+            &.text-english_certificate_link,
+            &.text-learning_achievements_link {
+                display: none;
+            }
+
+            &.group-text-avatar_link {
+                &.text-avatar_input {
+                    float        : left;
+                    width        : 100%;
+                    margin-bottom: 0;
+
+                    input {
+                        display : block;
+                        opacity : 0;
+                        position: absolute;
+                    }
+                }
+            }
+
+            &.group-text-input_hidden {
+                margin-bottom: 0;
+
+                input {
+                    display: none;
+                }
+
+            }
+
+            &.nto-image-avatar {
+                @media (min-width: 1200px) {
+                    position: absolute;
+                }
+
+                @media (max-width: 1199px) {
+                    margin: 0 auto 20px;
+                }
+
+
+                border       : none;
+                border-radius: 0;
+
+                .card-body {
+                    padding : 0;
+                    width   : 150px;
+                    height  : 200px;
+                    margin  : 0 auto;
+                    overflow: hidden;
+                    border  : 1px solid;
+                    position: relative;
+
+                    .card-title {
+                        position     : absolute;
+                        width        : 100%;
+                        padding      : 0 5px;
+                        top          : 50%;
+                        left         : 50%;
+                        transform    : translate(-50%, -50%);
+                        font-size    : 16px;
+                        font-style   : italic;
+                        color        : #ccc;
+                        text-align   : center;
+                        margin-bottom: 0;
+
+                        p {
+                            margin-bottom: 0;
+                        }
+                    }
+
+                    input {
+                        width             : 100%;
+                        padding           : 0;
+                        position          : absolute;
+                        left              : 0;
+                        bottom            : 0;
+                        border-radius     : 0;
+                        font-size         : 14px;
+                        background        : transparent;
+                        box-shadow        : none;
+                        -webkit-appearance: none;
+                        -moz-appearance   : none;
+                        border            : none;
+                    }
+
+                }
+
+                img {
+                    position : relative;
+                    top      : 50%;
+                    transform: translateY(-50%);
+                }
+            }
+
+            &.group-radio {
+                display: inline-block;
+
+                .group-type {
+                    display    : flex;
+                    align-items: center;
+
+                    span.bg {
+                        flex: none;
+                    }
+                }
+            }
+
+            &.group-radio-gender {
+                padding-right: 4px;
+
+                @media (min-width: 992px) {
+                    width: 14%;
+                }
+
+                +.group-radio-gender {
+                    margin-right: 0;
+
+                    @media (min-width: 992px) {
+                        width: 12%;
+                    }
+                }
+
+                label {
+                    margin-right: 42px;
+                }
+            }
+
+            &.group-radio-english_level {
+
+                span.text {
+                    margin-right: 17px;
+                }
+
+                input[type="radio"].form-control+span.bg {
+                    margin-right: 0;
+                }
+            }
+
+            &.group-checkbox {
+                .group-type {
+                    display: flex;
+
+                    input[type="checkbox"].form-control+span.bg {
+                        flex: none;
+                    }
+                }
+
+                &.group-checkbox-candidates {
+                    padding         : 22px 15px;
+                    background-color: #edeae5;
+                    border-top      : solid 4px #ed1b2e;
+                    margin-bottom   : 0;
+
+                }
+
+                @media (max-width: 991px) {
+                    &.group-checkbox-candidates {
+                        margin-top: 15px;
+                    }
+                }
+            }
+
+            &.group-date {
+                input {
+                    letter-spacing: 2px;
+                }
+
+                &.group-date-day {
+                    float  : none;
+                    display: flex;
+                    width  : 100%;
+
+                    label {
+                        margin-right: 6px;
+
+                        @media (min-width: 992px) {
+                            flex: none;
+                        }
+
+                    }
+                }
+            }
+
+            &.group-text-live {
+                @media (min-width: 992px) {
+                    width: 50%;
+                    float: left;
+                }
+
+                .group-wrap {
+                    @media (min-width: 992px) {
+                        padding-right: 20px;
+                    }
+                }
+            }
+
+            &.group-text-city,
+            &.group-text-district {
+                @media (min-width: 992px) {
+                    float: left;
+                }
+
+                .group-wrap {
+                    align-items  : flex-end;
+                    margin-bottom: 11px;
+
+                    label {
+                        margin-bottom: 0;
+                    }
+
+                }
+            }
+
+            &.group-text-city {
+                @media (min-width: 992px) {
+                    padding-right: 20px;
+                }
+
+            }
+
+            &.group-text-signature,
+            &.group-text-signature_fullname,
+            &.group-date-signature_date {
+                background-color: #edeae5;
+                padding         : 15px;
+                margin-bottom   : 0;
+
+                input {
+                    background: transparent;
+                }
+            }
+
+            &.form-card {
+                h4 {
+                    font-size  : 14px;
+                    font-family: 'Open sans';
+                }
+
+                .card-body {
+                    padding: 0;
+                }
+
+                &.nto-image-birth_certificate,
+                &.nto-image-learning_results,
+                &.nto-image-school_diploma,
+                &.nto-image-english_certificate_file,
+                &.nto-image-learning_achievements {
+                    width: 100%;
+                    float: left;
+
+                    img {
+                        display: none;
+                    }
+
+                    input {
+                        background: transparent;
+                        color     : #343642;
+                        border    : 1px solid;
+                        width     : 100%;
+                    }
+                }
+            }
+
+            &.nto-image-font_cmt,
+            &.nto-image-back_cmt {
+                .card-body {
+                    overflow: hidden;
+                    position: relative;
+                    height  : 250px;
+                    width   : 100%;
+                    border  : 1px solid;
+
+                    .card-title {
+                        font-size: 14px;
+                        padding  : 10px;
+                        color    : #ccc;
+                    }
+
+                    img {
+                        position : absolute;
+                        top      : 50%;
+                        left     : 50%;
+                        transform: translate(-50%, -50%);
+
+                    }
+
+                    input {
+                        width             : 100%;
+                        padding           : 0;
+                        position          : absolute;
+                        left              : 0;
+                        border-radius     : 0;
+                        font-size         : 0;
+                        background        : transparent;
+                        box-shadow        : none;
+                        -webkit-appearance: none;
+                        -moz-appearance   : none;
+                        top               : 0;
+                        height            : 100%;
+                        outline           : none;
+                        border            : none;
+
+                        &::-webkit-file-upload-button {
+                            padding: 0;
+                            border : none;
+                        }
+                    }
+                }
+            }
+
+            @media (min-width: 992px) {
+                &.nto-image-font_cmt {
+                    padding-right: 8px;
+                }
+
+                &.nto-image-back_cmt {
+                    padding-left: 8px;
+                }
+
+                .text-wrap {
+                    display: flex;
+                    flex   : auto;
+                }
+            }
+
+            &.group-text-text_note {
+                float: left;
+                width: 100%;
+
+                .text {
+                    margin-right : 0;
+                    margin-bottom: 0;
+                    white-space  : inherit !important;
+                    color        : $primary_color !important;
+                    font-style   : italic;
+                }
+
+                input {
+                    display: none;
+                }
+            }
+
+            &.group-text-label_register_form {
+                .group-wrap {
+                    justify-content: space-between;
+                    align-items    : flex-end;
+
+                    .text-wrap {
+                        opacity: 0;
+                        z-index: -1;
+                        flex   : none;
+
+                        @media (min-width: 992px) {
+                            width: 20%;
+                        }
+
+                        @media (min-width: 1200px) {
+                            width: 25%;
+                        }
+
+                    }
+
+                    span.text {
+                        text-align: center;
+                        flex      : none;
+
+                        p {
+                            font-size    : 18px;
+                            font-weight  : 700;
+                            line-height  : 1.33;
+                            margin-bottom: 14px;
+
+                            &:first-child {
+                                color: #ed1b2e;
+                            }
+                        }
+                    }
+
+                    @media (min-width: 1200px) {
+                        .image-text {
+                            img {
+                                max-width: 226px;
+                            }
+                        }
+
+                    }
+                }
+            }
+
+            &.checkbox-information_technology_majors,
+            &.group-checkbox-business_majors,
+            &.group-checkbox-media_communication_majors {
+                label {
+                    display: none;
+                }
+            }
+
+            @media (max-width: 1199px) {
+
+                &.group-text-label_register_form {
+                    .group-wrap {
+                        display              : grid;
+                        grid-template-columns: 100%;
+                        text-align           : center;
+
+                        .text-wrap {
+                            order: 3;
+                        }
+
+                        .image-text {
+                            img {
+                                max-width: 250px;
+                            }
+
+                        }
+                    }
+                }
+
+                &.group-radio-english_level,
+                &.group-radio-information_technology,
+                &.group-radio-business_administration {
+                    margin-right: 20px;
+                }
+            }
+
+            @media (min-width: 992px) {
+
+                &.radio-business_admin,
+                &.radio-software_development {
+                    padding-left: 10px;
+                }
+
+                &.group-text-label_register_form {
+                    float: left;
+                    width: 100%;
+                }
+
+                &.group-text-city {
+                    width: 41%;
+                }
+
+                &.group-text-district {
+                    width: 59%;
+                }
+
+
+
+                &.checkbox-information_technology_majors,
+                &.group-checkbox-business_majors,
+                &.group-checkbox-media_communication_majors,
+                &.group-text-full_name_father,
+                &.form-group.group-text-high_school,
+                &.group-number-undergraduates,
+                &.group-text-input_hidden,
+                &.group-number-year_graduates,
+                &.group-text-permanent_residence,
+                &.group-number-identity_card_number,
+                &.group-text-address,
+                &.group-checkbox-candidates {
+                    float: left;
+                    width: 100%;
+                }
+
+                &.nto-image-font_cmt,
+                &.nto-image-back_cmt,
+                &.group-email-father_email,
+                &.group-number-father_mobile,
+                &.group-text-father_work_place,
+                &.group-text-graduation_rating,
+                &.group-number-graduation,
+                &.group-date-date_provider,
+                &.group-text-issued_by,
+                &.group-number-mobile,
+                &.group-number-home_phone,
+                &.group-text-father_job,
+                &.group-text-full_name_mother,
+                &.group-text-mother_job {
+                    width: 50%;
+                    float: left;
+                }
+
+                &.group-radio-english_level,
+                &.group-text-nation,
+                &.group-text-nationality {
+                    width: 25%;
+                    float: left;
+                }
+
+                &.group-text-english_certificate,
+                &.group-date-test_day,
+                &.group-text-result,
+                &.group-text-mother_work_place,
+                &.group-email-mother_email,
+                &.group-number-mother_mobile,
+                &.group-radio-information_technology,
+                &.group-radio-business_administration,
+                &.group-text-signature,
+                &.group-text-signature_fullname,
+                &.group-date-signature_date {
+                    width: 33.33333%;
+                    float: left;
+                }
+
+                @media (min-width: 992px) {
+                    &.group-date-test_day input {
+                        white-space  : nowrap;
+                        overflow     : hidden;
+                        text-overflow: ellipsis;
+                    }
+
+                    &.group-text-nation .group-wrap {
+                        padding-right: 20px;
+                    }
+
+                }
+
+                &.text-label_gender {
+                    width: 12%;
+                }
+
+                &.group-text-permanent_residence {
+                    .group-wrap {
+                        display: block;
+
+                        .text-wrap {
+                            display: block;
+
+                            label {
+                                margin-bottom: 0;
+                            }
+
+                            input {
+                                margin-bottom: 15px;
+                            }
+                        }
+                    }
+                }
+
+                &.group-text-result {
+                    padding-right: 0;
+                }
+
+                &.group-text-graduation_rating {
+                    padding-right: 50px;
+                }
+
+                &.group-text-full_name,
+                &.group-text-english_certificate,
+                &.group-date-test_day,
+                &.group-date-date_provider,
+                &.group-number-mobile,
+                &.group-text-father_job,
+                &.group-email-father_email,
+                &.group-text-full_name_mother,
+                &.group-text-mother_work_place,
+                &.group-email-mother_email {
+                    padding-right: 20px;
+                }
+
+                &.group-text-signature {
+                    padding-left : 15px;
+                    padding-right: 20px;
+                }
+
+                &.group-text-signature_fullname {
+                    padding-left : 0;
+                    padding-right: 20px;
+                }
+
+                &.group-date-signature_date {
+                    padding-left : 0;
+                    padding-right: 15px;
+                }
+
+                &.radio-data_management,
+                &.radio-social_network {
+                    width: 66.666667%;
+                }
+            }
+
+            &.text-label_sign_up {
+                @media (min-width: 1200px) {
+                    width: 54%;
+                    float: left;
+                }
+
+            }
+
+            &.group-radio-Sign_up {
+                @media (min-width: 1200px) {
+                    float        : left;
+                    margin-bottom: 0;
+
+                    &.radio-Sign_up_yes {
+                        width: 14%;
+                    }
+
+                    &.radio-Sign_up_no {
+                        width: 32%;
+                    }
+                }
+
+                @media (max-width: 1199px) {
+                    width: 100%;
+                }
+
+            }
+
+            &.group-text-nationality {
+                .group-wrap {
+                    padding-right: 0;
+                }
+            }
+
+            &.radio-marketing {
+                .text i {
+                    font-size: 10px;
+                }
+            }
+
+            @media (min-width: 992px) {
+                &.group-text-full_name {
+                    float: left;
+                    width: 60%;
+
+                    input {
+                        text-transform: uppercase;
+                    }
+                }
+
+                &.group-radio-gender {
+                    label {
+                        margin-left: 20px;
+                    }
+                }
+            }
+
+            @media (min-width: 992px) {
+                .group-wrap {
+                    display: flex;
+
+                    label {
+                        white-space  : nowrap;
+                        text-overflow: ellipsis;
+                        margin-right : 6px;
+                    }
+                }
+            }
+
+        }
+
+        label {
+            line-height  : 1.36;
+            margin-bottom: 0;
+
+            @media (min-width: 992px) {
+                margin-bottom: 15px;
+            }
+
+            b {
+                font-weight: 600;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .group-text-input_hidden {
+                label {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        input.form-control {
+            font-size    : 14px;
+            border       : none;
+            border-bottom: 1px solid #707070;
+            height       : 22px;
+            padding      : 0px;
+            margin-bottom: 0;
+
+            &:focus {
+                box-shadow: none;
+            }
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            border       : none;
+            border-bottom: 1px solid #707070;
+
+            @media (min-width: 992px) {
+                white-space  : nowrap;
+                text-overflow: ellipsis;
+                overflow     : hidden;
+            }
+        }
+
+        .group-type {
+            position: relative;
+        }
+
+        input[type="radio"].form-control {
+            position: absolute;
+            top     : 0px;
+            left    : 0px;
+            opacity : 0;
+            cursor  : pointer;
+            z-index : 1;
+
+            &:checked+span.bg {
+                &:before {
+                    background: #D60707;
+                }
+
+                &:after {
+                    display: block;
+                }
+            }
+
+            &+span.bg {
+                border      : solid 1px #343642;
+                cursor      : pointer;
+                width       : 18px;
+                height      : 18px;
+                padding     : 0;
+                display     : inline-block;
+                position    : relative;
+                top         : 0;
+                margin-right: 20px;
+
+                &:before {
+                    position  : absolute;
+                    width     : 18px;
+                    height    : 18px;
+                    top       : -1px;
+                    left      : -1px;
+                    background: transparent;
+                    content   : '';
+                }
+
+                &:after {
+                    left             : 6px;
+                    top              : 2px;
+                    width            : 5px;
+                    height           : 10px;
+                    border           : solid white;
+                    border-width     : 0 2px 2px 0;
+                    -webkit-transform: rotate(45deg);
+                    -ms-transform    : rotate(45deg);
+                    transform        : rotate(45deg);
+                    content          : "";
+                    position         : absolute;
+
+                }
+            }
+        }
+
+        input[type="checkbox"].form-control {
+            position: absolute;
+            top     : 0px;
+            left    : 0px;
+            opacity : 0;
+            cursor  : pointer;
+            z-index : 1;
+
+            &:checked+span.bg {
+                &:before {
+                    background: #D60707;
+                }
+
+                &:after {
+                    display: block;
+                }
+            }
+
+            &+span.bg {
+                border      : solid 1px #343642;
+                cursor      : pointer;
+                width       : 16px;
+                height      : 16px;
+                padding     : 0;
+                display     : inline-block;
+                position    : relative;
+                top         : 0px;
+                margin-right: 20px;
+                background  : #fff;
+
+                &:before {
+                    position  : absolute;
+                    width     : 16px;
+                    height    : 16px;
+                    top       : -1px;
+                    left      : -1px;
+                    background: transparent;
+                    content   : '';
+                }
+
+                &:after {
+                    left             : 4px;
+                    top              : 1px;
+                    width            : 6px;
+                    height           : 10px;
+                    border           : solid white;
+                    border-width     : 0 2px 2px 0;
+                    -webkit-transform: rotate(45deg);
+                    -ms-transform    : rotate(45deg);
+                    transform        : rotate(45deg);
+                    content          : "";
+                    position         : absolute;
+
+                }
+            }
+
+        }
+
+        .checkbox-information_technology_majors,
+        .group-checkbox-business_majors,
+        .group-checkbox-media_communication_majors {
+            input[type="checkbox"].form-control {
+                &+span.bg {
+                    width : 22px;
+                    height: 22px;
+
+                    &:before {
+                        width : 22px;
+                        height: 22px;
+                    }
+
+                    &:after {
+                        width : 8px;
+                        height: 14px;
+                        left  : 6px;
+                        top   : 1px;
+                    }
+                }
+            }
+
+            label {
+                margin-bottom: 6px;
+            }
+        }
+
+        input.btn-register {
+            padding   : 5px 20px;
+            font-size : 14px;
+            margin-top: 20px;
+            background: #D60707;
+            color     : #fff;
+            transition: all 0.3s ease 0s;
+
+            &:hover {
+                background: #ce1616;
+                box-shadow: 0 0px 20px -5px rgba(0, 0, 0, 0.7);
+            }
+        }
+    }
+
+
+
+    .map-iframe {
+        margin-top: 10px;
+        border    : 1px solid #aaaaaa;
+
+        iframe {
+            width : 100%;
+            height: 280px;
+        }
+
+        .map-go-to {
+            background: #fff;
+            padding   : 10px 20px;
+            margin-top: -6px;
+
+            a {
+                font-size: 14px;
+                color    : #ec2031;
+
+                i {
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+}
+
+
+.group-number-code,
+.group-number-day {
+    width       : 25%;
+    float       : left;
+    margin-right: 30px;
+}
+
+.group-number-telephone-number {
+    width: 50%;
+    float: left;
+}
+
+.group-text-birth,
+.group-number-day,
+.group-number-first-birth,
+.group-number-month,
+.group-number-year {
+    width: 25%;
+}
+
+.group-email-email,
+.group-text-high-school,
+.group-text-live {
+    clear: both;
+}
+
+.group-number-day-first-birth,
+.group-number-month,
+.group-number-year {
+    width       : 20%;
+    float       : left;
+    margin-right: 30px;
+}
+
+.group-number-year,
+.group-number-month {
+    width       : 25%;
+    float       : left;
+    padding-top : 29px;
+    margin-right: 30px;
+}
+
+/*test*/
+@media(max-width: 992px) {
+
+    .group-number-code,
+    .group-number-telephone-number,
+    .group-number-day,
+    .group-number-month,
+    .group-number-year {
+        width: 100%;
+    }
+
+    .contact-page .personal-info {
+        padding: 15px 15px 122px 15px;
+    }
+}
+
+@media(max-width: 991px) {
+
+    .group-number-telephone_number,
+    .group-number-Month,
+    .group-number-Year>.group-wrap {
+        width: 100% !important;
+    }
+
+    .contact-page .personal-info .group-number-Month {
+        padding-right: 0;
+    }
+
+    .group-number-telephone_number .group-wrap {
+        width: 100% !important;
+    }
+}

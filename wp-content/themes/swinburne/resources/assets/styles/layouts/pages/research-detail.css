@@ -1,0 +1,42 @@
+.our-page .our-search h2 {
+  padding-top: 35px;
+}
+
+.research-custom .main-research h2 {
+  padding-top: 0px;
+}
+
+.research-detail {
+  padding-top: 0;
+}
+
+.research-detail .sb-research a img {
+  padding-top: 15px;
+}
+
+.research-detail .univer-title h3 {
+  font-size: 18px;
+  color: #343642;
+}
+
+.research-detail .title-qs {
+  color: #343642;
+  padding-bottom: 20px;
+}
+
+.research-detail .sidebar-research .info-research {
+  margin-top: 10px;
+}
+
+@media (max-width: 991px) {
+  .navbar-study #nav-business {
+    padding-left: 0 !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .sidebar-research {
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=research-detail.css.map */

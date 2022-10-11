@@ -1,0 +1,35 @@
+.list-post-news .list-posts-about .single-download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 30px;
+}
+
+.list-post-news .list-posts-about .single-download:hover {
+  background: rgba(0, 255, 0, 0.2);
+}
+
+.list-post-news .list-posts-about .single-download .img-download i {
+  padding: 5px;
+  background: #343642;
+  color: #fff;
+  font-size: 21px;
+}
+
+.list-post-news .list-posts-about .single-download .name-file {
+  padding-left: 20px;
+}
+
+.list-post-news .list-posts-about .single-download .name-file a {
+  color: #343642;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1190px;
+  }
+}
+/*# sourceMappingURL=download.css.map */
